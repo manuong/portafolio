@@ -1,0 +1,28 @@
+@import '../styles/variables.scss';
+
+.aboutWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.about {
+  padding: 20px;
+  width: 80%;
+}
+
+.foto {
+  float: right;
+  height: 300px;
+  border-radius: 100%;
+  margin: 0 30px 0 50px;
+  border: 3px solid $border-color-foto;
+}
+
+.about h1 {
+  margin-bottom: 10px;
+}
+
+.about h2 {
+  margin-bottom: 50px;
+}

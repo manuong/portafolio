@@ -1,0 +1,18 @@
+/* resetear estilos predeterminados de los navegadores */
+@import './reset.scss';
+
+/* variables color */
+@import './variables.scss';
+
+body {
+  background-color: $bg-color;
+  color: $font-base-color;
+}
+
+h1 {
+  font-size: $h1-size;
+}
+
+h2 {
+  font-size: $h2-size;
+}
