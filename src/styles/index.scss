@@ -11,11 +11,17 @@ body {
 }
 
 h1 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: $h1-size;
 }
 
 h2 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: $h2-size;
+}
+
+p {
+  line-height: 1.4em;
 }
 
 @media (max-width: $media-querie-m) {
@@ -40,7 +46,26 @@ h2 {
   h1 {
     font-size: $h1-size-s;
   }
+
   h2 {
     font-size: $h2-size-s;
+  }
+
+  p {
+    line-height: 1.4em;
+  }
+}
+
+@media (max-width: $media-querie-ss) {
+  body {
+    font-size: $text-size-ss;
+  }
+
+  h1 {
+    font-size: $h1-size-ss;
+  }
+
+  h2 {
+    font-size: $h2-size-ss;
   }
 }
