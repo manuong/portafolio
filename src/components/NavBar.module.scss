@@ -11,6 +11,10 @@
   .navbar {
     display: flex;
     justify-content: end;
+
+    button {
+      background-color: $bg-color-button-navbar;
+    }
   }
 }
 
