@@ -7,6 +7,20 @@
   justify-content: end;
 }
 
+@media (max-width: $media-querie-m) {
+  .navbar {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media (max-width: $media-querie-s) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 // .navbar {
 //   background-color: $bg-color-navbar;
 //   height: 70px;
