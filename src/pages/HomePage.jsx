@@ -8,7 +8,9 @@ const HomePage = () => {
         <img className={styles.foto} src={foto} alt="foto de perfil" />
         <div>
           <h1>Emmanuel Martinez Zamudio</h1>
-          <h2>Full Stack Developer | Front-end & Back-end</h2>
+          <h2>
+            Full Stack Developer <span className={styles.hidden}>| Front-end & Back-end</span>
+          </h2>
           <p>Actualmente llevo 2 años en el desarrollo IT</p>
           <p>
             Desde chico me a gustado pasar mi tiempo libre navegando por la web, chateando o escuchando

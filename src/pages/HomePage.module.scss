@@ -63,7 +63,7 @@
     position: relative;
     top: -28px;
     margin: 0;
-    height: 143px;
+    height: 155px;
     border-width: 2px;
   }
 
@@ -79,5 +79,9 @@
     div {
       max-width: 93%;
     }
+  }
+
+  .hidden {
+    display: none;
   }
 }
