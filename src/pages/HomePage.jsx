@@ -7,7 +7,9 @@ const HomePage = () => {
       <section className={styles.about}>
         <img className={styles.foto} src={foto} alt="foto de perfil" />
         <div>
-          <h1>Emmanuel Martinez Zamudio</h1>
+          <h1>
+            Emmanuel Martinez <span className={styles.hidden}>Zamudio</span>
+          </h1>
           <h2>
             Full Stack Developer <span className={styles.hidden}>| Front-end & Back-end</span>
           </h2>
