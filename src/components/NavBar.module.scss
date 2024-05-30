@@ -2,71 +2,44 @@
 
 .navbar {
   background-color: $bg-color-navbar;
-  height: 50px;
+  height: 70px;
   display: flex;
   justify-content: end;
+  align-items: center;
+
+  * {
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: $bg-color-button-navbar;
+    padding: 10px;
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: $media-querie-m) {
   .navbar {
-    display: flex;
-    justify-content: end;
-
-    button {
-      background-color: $bg-color-button-navbar;
+    * {
+      float: right;
     }
   }
 }
 
 @media (max-width: $media-querie-s) {
   .navbar {
-    display: flex;
+    height: 100px;
     justify-content: space-around;
+    align-items: start;
+
+    * {
+      margin: 20px 0 0 0;
+    }
 
     button {
-      background-color: white;
+      padding: 5px;
+      border-radius: 5px;
     }
   }
 }
-
-// .navbar {
-//   background-color: $bg-color-navbar;
-//   height: 70px;
-//   display: flex;
-//   justify-content: end;
-//   align-items: center;
-
-//   * {
-//     margin-right: 40px;
-//     cursor: pointer;
-//   }
-
-//   button {
-//     background-color: $bg-color-button-navbar;
-//     padding: 10px;
-//     border-radius: 10px;
-//   }
-// }
-
-// @media (max-width: $media-querie-m) {
-//   .navbar {
-//     justify-content: end;
-//   }
-// }
-
-// @media (max-width: $media-querie-s) {
-//   .navbar {
-//     height: 100px;
-//     justify-content: space-around;
-//     align-items: start;
-
-//     * {
-//       margin: 20px 0 0 0;
-//     }
-
-//     button {
-//       padding: 5px;
-//       border-radius: 5px;
-//     }
-//   }
-// }
