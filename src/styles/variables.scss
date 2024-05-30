@@ -22,5 +22,26 @@ Tamaños de fuente
 */
 
 /* generales */
+$text-size: 18px;
 $h1-size: 48px;
 $h2-size: 28px;
+
+$text-size-m: 16px;
+$h1-size-m: 36px;
+$h2-size-m: 22px;
+
+$text-size-s: 11px;
+$h1-size-s: 20px;
+$h2-size-s: 13px;
+
+/* 
+
+media queries
+
+*/
+
+/* tablets */
+$media-querie-m: 1024px;
+
+/* moviles */
+$media-querie-s: 720px;

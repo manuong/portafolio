@@ -7,6 +7,7 @@
 body {
   background-color: $bg-color;
   color: $font-base-color;
+  font-size: $text-size;
 }
 
 h1 {
@@ -15,4 +16,31 @@ h1 {
 
 h2 {
   font-size: $h2-size;
+}
+
+@media (max-width: $media-querie-m) {
+  body {
+    font-size: $text-size-m;
+  }
+
+  h1 {
+    font-size: $h1-size-m;
+  }
+
+  h2 {
+    font-size: $h2-size-m;
+  }
+}
+
+@media (max-width: $media-querie-s) {
+  body {
+    font-size: $text-size-s;
+  }
+
+  h1 {
+    font-size: $h1-size-s;
+  }
+  h2 {
+    font-size: $h2-size-s;
+  }
 }
