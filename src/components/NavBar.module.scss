@@ -19,12 +19,20 @@
   }
 }
 
+@media (max-width: $media-querie-m) {
+  .navbar {
+    justify-content: end;
+  }
+}
+
 @media (max-width: $media-querie-s) {
   .navbar {
+    height: 90px;
     justify-content: space-around;
+    align-items: start;
 
     * {
-      margin: 0;
+      margin: 20px 0 0 0;
     }
 
     button {
