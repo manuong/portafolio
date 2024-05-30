@@ -2,42 +2,47 @@
 
 .navbar {
   background-color: $bg-color-navbar;
-  height: 70px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-
-  * {
-    margin-right: 40px;
-    cursor: pointer;
-  }
-
-  button {
-    background-color: $bg-color-button-navbar;
-    padding: 10px;
-    border-radius: 10px;
-  }
+  height: 50px;
 }
 
-@media (max-width: $media-querie-m) {
-  .navbar {
-    justify-content: end;
-  }
-}
+// .navbar {
+//   background-color: $bg-color-navbar;
+//   height: 70px;
+//   display: flex;
+//   justify-content: end;
+//   align-items: center;
 
-@media (max-width: $media-querie-s) {
-  .navbar {
-    height: 100px;
-    justify-content: space-around;
-    align-items: start;
+//   * {
+//     margin-right: 40px;
+//     cursor: pointer;
+//   }
 
-    * {
-      margin: 20px 0 0 0;
-    }
+//   button {
+//     background-color: $bg-color-button-navbar;
+//     padding: 10px;
+//     border-radius: 10px;
+//   }
+// }
 
-    button {
-      padding: 5px;
-      border-radius: 5px;
-    }
-  }
-}
+// @media (max-width: $media-querie-m) {
+//   .navbar {
+//     justify-content: end;
+//   }
+// }
+
+// @media (max-width: $media-querie-s) {
+//   .navbar {
+//     height: 100px;
+//     justify-content: space-around;
+//     align-items: start;
+
+//     * {
+//       margin: 20px 0 0 0;
+//     }
+
+//     button {
+//       padding: 5px;
+//       border-radius: 5px;
+//     }
+//   }
+// }
