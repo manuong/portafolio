@@ -3,6 +3,8 @@
 .navbar {
   background-color: $bg-color-navbar;
   height: 50px;
+  display: flex;
+  justify-content: end;
 }
 
 // .navbar {
