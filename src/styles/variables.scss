@@ -1,17 +1,19 @@
 /* 
 colores base
 */
+$color-base-1: #3bc14a;
+$color-base-2: #343e3d;
 
 /* html */
-$bg-color: #202020;
+$bg-color: $color-base-2;
 $font-base-color: white;
 
 /* navbar */
-$bg-color-navbar: #111111;
-$bg-color-button-navbar: #63d471;
+$bg-color-navbar: #20202034;
+$bg-color-button-navbar: #3bc14a;
 
 /* about */
-$border-color-foto: #d1495b;
+$border-color-foto: #3bc14a;
 
 /* 
 

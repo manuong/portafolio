@@ -1,0 +1,128 @@
+@import '../styles/variables.scss';
+
+.wrapperAbout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about {
+  padding: 20px;
+  width: 80%;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-bottom: 50px;
+    color: $color-base-1;
+  }
+
+  div {
+    max-width: 75%;
+  }
+}
+
+.foto {
+  float: right;
+  height: 280px;
+  border-radius: 100%;
+  margin: 0 30px 0 50px;
+  border: 3px solid $border-color-foto;
+}
+
+.bubble1 {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  z-index: -1;
+  width: 22em;
+  height: 22em;
+  background: linear-gradient(45deg, #214f4b, #04a777);
+  border-radius: 0 0 100% 0;
+}
+
+.bubble2 {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+  z-index: -1;
+  width: 6em;
+  height: 6em;
+  background: linear-gradient(45deg, #214f4b, #04a777);
+  border-radius: 100%;
+}
+
+.bubble3 {
+  position: absolute;
+  bottom: 50px;
+  right: 33%;
+  z-index: -1;
+  width: 4em;
+  height: 4em;
+  background: linear-gradient(45deg, #214f4b, #04a777);
+  border-radius: 100%;
+}
+
+@media (max-width: $media-querie-m) {
+  .wrapperAbout {
+    margin-top: 20px;
+  }
+  .about {
+    width: 95%;
+    h2 {
+      margin-bottom: 30px;
+    }
+  }
+
+  .foto {
+    margin: 0 0 10px 10px;
+    height: 200px;
+  }
+}
+
+@media (max-width: $media-querie-s) {
+  .wrapperAbout {
+    margin-top: 0;
+  }
+
+  .foto {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    margin: 2px;
+    height: 150px;
+    border-width: 2px;
+  }
+
+  .about {
+    position: relative;
+    width: 99%;
+    padding: 10px $movil-padding-x 0 $movil-padding-x;
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    h2 {
+      margin-bottom: 50px;
+    }
+
+    div {
+      max-width: 100%;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: $media-querie-ss) {
+  .foto {
+    height: 130px;
+    right: 5px;
+  }
+}
