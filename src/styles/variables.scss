@@ -1,7 +1,5 @@
 /* 
-
 colores base
-
 */
 
 /* html */
@@ -15,10 +13,21 @@ $bg-color-button-navbar: #63d471;
 /* about */
 $border-color-foto: #d1495b;
 
+/* 
+
+
+
+Font-family
+*/
+
+$font-reddit-mono: 'Reddit Mono', monospace;
+$font-noto-sans: 'Noto Sans', sans-serif;
+
 /*
 
-Tamaños de fuente
 
+
+Tamaños de fuente
 */
 
 /* generales */
@@ -30,18 +39,19 @@ $text-size-m: 14px;
 $h1-size-m: 36px;
 $h2-size-m: 22px;
 
-$text-size-s: 13.2px;
+$text-size-s: 12.1px;
 $h1-size-s: 22px;
 $h2-size-s: 16px;
 
-$text-size-ss: 12px;
+$text-size-ss: 10.3px;
 $h1-size-ss: 19px;
 $h2-size-ss: 14px;
 
 /* 
 
-media queries
 
+
+media queries
 */
 
 /* tablets */

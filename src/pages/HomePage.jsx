@@ -15,10 +15,9 @@ const HomePage = () => {
           </h2>
           <p>Actualmente llevo 2 años en el desarrollo IT</p>
           <p>
-            Desde chico me a gustado pasar mi tiempo libre navegando por la web, chateando o escuchando
-            música, y en todo ese tiempo me eh dado cuenta de la evolución que han tenido los programas,
-            aplicación y paginas web, es por eso que me gustaría ser yo ahora quien brinde esas
-            experiencias y herramientas
+            Desde chico, me ha gustado pasar mi tiempo libre navegando por la web, chateando o escuchando
+            música. Me he dado cuenta de la evolución que han tenido los programas, aplicaciones y
+            páginas web. Ahora me gustaría ser yo quien brinde esas experiencias y herramientas.
           </p>
         </div>
       </section>
