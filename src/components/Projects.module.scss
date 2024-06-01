@@ -1,0 +1,14 @@
+@import '../styles/variables.scss';
+
+.wrapperSection {
+  h2 {
+    margin-left: $deskop-margin-left-h2;
+  }
+}
+
+.wrapperCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+}
