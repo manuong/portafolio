@@ -9,6 +9,12 @@
 .wrapperCards {
   width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.wrapperCards > div {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  background-color: yellow;
 }

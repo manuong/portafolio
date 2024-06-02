@@ -1,0 +1,26 @@
+[
+  {
+    "foto": "https://res.cloudinary.com/dip4aekhl/image/upload/v1717266340/care-with-love_kz5xt5.jpg",
+    "name": "Care With Love",
+    "description": "Página web desarrollada en equipo donde su principal objetivo es conectar clientes con proveedores para el cuidado de un adulto mayor; incluye: método de pago, autenticación con terceros, dashboard, chat en vivo, y más funcionalidades",
+    "additional": "Trabajé en el back end diseñando rutas que incluía filtros y ordenamiento, manejo de errores y token de seguridad",
+    "technologies": "React, Redux, SASS, Express, Sequelize, PostgreSQL",
+    "demo": "https://proyecto-final-front-ashy.vercel.app",
+    "github": "https://github.com/pablo0261/proyecto-final-front"
+  },
+  {
+    "foto": "https://res.cloudinary.com/dip4aekhl/image/upload/v1717266828/countries_gvt08l.jpg",
+    "name": "Countries App",
+    "description": "SPA de países desde cero que incluye: Search Bar, vista con filtros y ordenamientos, formulario para creación de actividades turísticas, back end con arquitectura API REST",
+    "technologies": "React, CSS Modules, Redux, Express, Sequelize, PostgreSQL, Axios",
+    "github": "https://github.com/manuong/countries-pi"
+  },
+  {
+    "foto": "https://res.cloudinary.com/dip4aekhl/image/upload/v1717266886/notes-api_bxmkuv.jpg",
+    "name": "Notes API",
+    "description": "SPA para la creación de notas, con API REST y base de datos No Relacional",
+    "additional": "Como extra agregue encriptación de contraseña y protecciones de rutas basica contra usuario no registrado o no logueado",
+    "technologies": "React, Tailwind CSS, Express, Mongoose, MongoDB, JsonWebToken, Bcryptjs",
+    "github": "https://github.com/manuong/api-con-MongoDB"
+  }
+]

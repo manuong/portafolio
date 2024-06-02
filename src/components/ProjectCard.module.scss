@@ -1,8 +1,44 @@
+@import '../styles/variables.scss';
+
 .wrapperCard {
-  width: 400px;
-  background-color: green;
+  background-color: $color-base-3;
+  width: 500px;
+  height: 620px;
+  margin: 20px;
+  border-radius: 10px;
 
   img {
-    width: 400px;
+    border-radius: 10px 10px 0 0;
+    width: 500px;
+    height: 45%;
+  }
+}
+
+.content {
+  padding: 20px 10px;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  p {
+    margin: 0;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  div {
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
   }
 }
