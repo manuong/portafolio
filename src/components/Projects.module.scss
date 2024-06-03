@@ -1,19 +1,22 @@
 @import '../styles/variables.scss';
 
 .wrapperSection {
-  h2 {
-    margin-left: $deskop-margin-left-h2;
-  }
+  margin-top: $deskop-margin-top-l;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperSection > div {
+  width: 80%;
 }
 
 .wrapperCards {
-  width: 100%;
+  margin-top: $deskop-margin-top-m;
   display: flex;
   justify-content: center;
 }
 
 .wrapperCards > div {
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
