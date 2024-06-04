@@ -16,6 +16,9 @@ const Technologies = () => {
           })}
         </div>
       </div>
+      <div className={styles.bubble1}></div>
+      <div className={styles.bubble2}></div>
+      <div className={styles.bubble3}></div>
     </section>
   );
 };
