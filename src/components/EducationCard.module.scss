@@ -1,0 +1,24 @@
+@import '../styles/variables.scss';
+
+.wrapperCard {
+  background-color: $color-base-3;
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+
+  img {
+    width: 35%;
+    margin-right: 20px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+}
+
+.title {
+  color: $color-base-1;
+}

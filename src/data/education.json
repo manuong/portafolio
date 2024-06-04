@@ -1,0 +1,14 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dip4aekhl/image/upload/v1717537661/henry-logo_ihjkpz.png",
+    "name": "Henry Bootcamp",
+    "title": "Full Stack Developer",
+    "time": "junio 2023 - enero 2024"
+  },
+  {
+    "image": "https://res.cloudinary.com/dip4aekhl/image/upload/v1717540614/colbach-logo_pg37w0.png",
+    "name": "Colegio de Bachilleres",
+    "title": "Programador en sistemas de cómputo",
+    "time": "agosto 2011 - julio 2014"
+  }
+]
