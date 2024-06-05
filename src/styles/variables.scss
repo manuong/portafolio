@@ -4,13 +4,14 @@ colores base
 $color-base-1: #3bc14a;
 $color-base-2: #343e3d;
 $color-base-3: #2020208c;
+$color-base-4: #20202034;
 
 /* html */
 $bg-color: $color-base-2;
 $font-base-color: white;
 
 /* navbar */
-$bg-color-navbar: #20202034;
+$bg-color-navbar: $color-base-4;
 $bg-color-button-navbar: #3bc14a;
 
 /* about */
