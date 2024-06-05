@@ -1,28 +1,33 @@
 @import '../styles/variables.scss';
 
-.navbar {
+.wrapperHeader {
+  width: 100%;
   background-color: $bg-color-navbar;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 85%;
   height: 70px;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
-  font-family: $font-reddit-mono;
+}
 
-  * {
-    cursor: pointer;
-  }
+.name {
+  font-family: $font-noto-sans;
+  font-size: 24px;
 
   span {
-    margin-right: 60px;
-  }
-
-  button {
-    background-color: $bg-color-button-navbar;
-    color: black;
-    margin-right: 40px;
-    padding: 10px;
-    border-radius: 10px;
+    color: $color-base-1;
     font-weight: bold;
+  }
+}
+
+.contacts {
+  span {
+    margin-right: 30px;
   }
 }
 
