@@ -10,7 +10,7 @@ const ProjectCard = ({ foto, name, description, additional, technologies, demo, 
         {additional && <p>{additional}</p>}
         <p>{technologies}</p>
         <div>
-          <a href={demo}>Demo</a>
+          {demo && <a href={demo}>Demo</a>}
           <a href={github}>Repositorio</a>
         </div>
       </div>

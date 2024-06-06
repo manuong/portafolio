@@ -12,12 +12,10 @@
 
 .wrapperCards {
   margin-top: $deskop-margin-top-m;
-  display: flex;
-  justify-content: center;
 }
 
 .wrapperCards > div {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
