@@ -19,7 +19,7 @@
     "foto": "https://res.cloudinary.com/dip4aekhl/image/upload/v1717633536/471shots_so_prkqml.png",
     "name": "Notes API",
     "description": "SPA para la creación de notas, con API REST y base de datos No Relacional",
-    "additional": "Como extra agregue encriptación de contraseña y protecciones de rutas basica contra usuario no registrado o no logueado",
+    "additional": "Como extra, agregué encriptación de contraseñas y protecciones básicas de rutas contra usuarios no registrados o no logueados.",
     "technologies": "React, Tailwind CSS, Express, Mongoose, MongoDB, JsonWebToken, Bcryptjs",
     "github": "https://github.com/manuong/api-con-MongoDB"
   }

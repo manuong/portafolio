@@ -9,7 +9,7 @@ const About = () => {
         <img className={styles.foto} src={foto} alt="foto de perfil" />
         <div>
           <h1>
-            Emmanuel Martinez <span className={styles.hidden}>Zamudio</span>
+            Emmanuel Martínez <span className={styles.hidden}>Zamudio</span>
           </h1>
           <h2>
             Full Stack Developer <span className={styles.hidden}>| Front-end & Back-end</span>

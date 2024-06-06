@@ -1,18 +1,5 @@
 @import '../styles/variables.scss';
 
-/* .wrapperCard {
-  background-color: $color-base-3;
-  width: 500px;
-  height: 620px;
-  margin: 20px;
-  border-radius: 10px;
-
-  img {
-    border-radius: 10px 10px 0 0;
-    width: 500px;
-    height: 45%;
-  }
-} */
 .wrapperCard {
   background-color: $color-base-3;
   width: 80%;
@@ -27,29 +14,42 @@
   }
 }
 
-.content {
-  padding: 0 15px;
-
-  p {
-    margin-bottom: 5px;
-    font-size: 14px;
-  }
+.title {
+  height: 80px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   h3 {
     font-weight: bold;
     margin: 20px 0;
   }
 
-  div {
-    margin-top: 40px;
-  }
-
   a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
+    color: $color-base-1;
+    font-weight: bold;
     padding: 7px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid $color-base-1;
+  }
+}
+
+.content {
+  padding: 0 15px;
+
+  p {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}
+
+p.technologyLine {
+  font-weight: bold;
+
+  span {
+    font-size: 16px;
+    color: $color-base-1;
   }
 }
