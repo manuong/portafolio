@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div>
           <a href={CONTACTS.SPOTIFY} target="_blank" rel="noreferrer">
-            <img src="https://img.icons8.com/?size=100&id=11116&format=png&color=ffffff" alt="logo" />
+            <ion-icon name="filter-circle-outline"></ion-icon>
           </a>
         </div>
         <div>

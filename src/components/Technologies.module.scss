@@ -32,10 +32,45 @@
   }
 }
 
+@keyframes movtras1 {
+  from {
+    top: 0;
+    left: 30%;
+  }
+
+  to {
+    top: 50px;
+    left: 32%;
+  }
+}
+
+@keyframes movtras2 {
+  from {
+    bottom: 25px;
+    right: 8%;
+  }
+
+  to {
+    bottom: 25px;
+    right: 9%;
+  }
+}
+
+@keyframes movtras3 {
+  from {
+    bottom: 20px;
+    right: 45%;
+  }
+
+  to {
+    bottom: 30px;
+    right: 45%;
+  }
+}
+
 div.bubble1 {
   position: absolute;
-  top: 0;
-  left: 30%;
+  animation: movtras1 4s ease-in-out infinite alternate;
   z-index: -1;
   width: 120px;
   height: 120px;
@@ -45,8 +80,7 @@ div.bubble1 {
 
 div.bubble2 {
   position: absolute;
-  bottom: 25px;
-  right: 10%;
+  animation: movtras2 5s ease-in-out 1s infinite alternate;
   z-index: -1;
   width: 150px;
   height: 150px;
@@ -56,8 +90,7 @@ div.bubble2 {
 
 div.bubble3 {
   position: absolute;
-  bottom: 0;
-  right: 45%;
+  animation: movtras3 3s ease-in-out 2s infinite alternate;
   z-index: -1;
   width: 100px;
   height: 100px;

@@ -1,4 +1,7 @@
+import ICON_NAMES from '../constants/iconNames';
+import CONTACTS from '../constants/urlContacts';
 import ButtonCV from './buttons/ButtonCV/ButtonCV';
+import ContactLabel from './ContactLabel/ContactLabel';
 import styles from './NavBar.module.scss';
 
 const NavBar = () => {
@@ -10,23 +13,23 @@ const NavBar = () => {
         </div>
         <div className={styles.contacts}>
           <div>
-            <div className={styles.icons}>
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-            <span>manumtz.job@gmail.com</span>
+            <ContactLabel
+              icon={ICON_NAMES.GMAIL}
+              url={CONTACTS.GMAIL}
+              reference={'manumtz.job@gmail.com'}
+            />
           </div>
           <div>
-            <div className={styles.icons}>
-              <ion-icon name="logo-whatsapp"></ion-icon>
-            </div>
-            <span>+52 56 1282 8043</span>
+            <ContactLabel
+              icon={ICON_NAMES.WHATSAPP}
+              url={CONTACTS.WHATSAPP}
+              reference={'+52 56 1282 8043'}
+            />
           </div>
           <div>
-            <div className={styles.icons}>
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </div>
-            <span>in/manuong</span>
+            <ContactLabel icon={ICON_NAMES.LINKEDIN} url={CONTACTS.LINKEDIN} reference={'in/manuong'} />
           </div>
+
           <ButtonCV name={'Descargar CV'} />
         </div>
       </nav>
