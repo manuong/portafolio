@@ -1,4 +1,4 @@
-import ButtonCV from './ButtonCV';
+import ButtonCV from './buttons/ButtonCV/ButtonCV';
 import styles from './NavBar.module.scss';
 
 const NavBar = () => {
@@ -9,9 +9,24 @@ const NavBar = () => {
           manuong<span>.dev</span>
         </div>
         <div className={styles.contacts}>
-          <span>manumtz.job@gmail.com</span>
-          <span>+52 56 1282 8043</span>
-          <span>in/manuong</span>
+          <div>
+            <div className={styles.icons}>
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <span>manumtz.job@gmail.com</span>
+          </div>
+          <div>
+            <div className={styles.icons}>
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+            <span>+52 56 1282 8043</span>
+          </div>
+          <div>
+            <div className={styles.icons}>
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <span>in/manuong</span>
+          </div>
           <ButtonCV name={'Descargar CV'} />
         </div>
       </nav>

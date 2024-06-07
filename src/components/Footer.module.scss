@@ -10,14 +10,10 @@
 }
 
 .contacts {
-  margin-top: 40px;
-  width: 100%;
+  margin: 40px 0;
+  width: 50%;
   display: flex;
-  justify-content: center;
-
-  div {
-    margin: 0 50px;
-  }
+  justify-content: space-between;
 
   p {
     margin: 0 0 8px 0;
@@ -27,4 +23,29 @@
 .divcv {
   display: grid;
   place-items: center;
+}
+
+.name {
+  font-family: $font-noto-sans;
+  font-size: 19px;
+  margin-bottom: 20px;
+
+  span {
+    color: $color-base-1;
+    font-weight: bold;
+  }
+}
+
+.social {
+  margin-bottom: 18px;
+  display: flex;
+
+  div {
+    font-size: 22px;
+    margin: 0 10px;
+  }
+
+  img {
+    width: 22px;
+  }
 }

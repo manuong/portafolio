@@ -9,7 +9,7 @@
 
 .navbar {
   width: 85%;
-  height: 70px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,9 +26,24 @@
 }
 
 .contacts {
-  span {
-    margin-right: 30px;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.contacts > div {
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.contacts > div:hover {
+  color: $color-base-1;
+  cursor: pointer;
+}
+
+.icons {
+  font-size: 22px;
+  margin: 7px 5px 0 0;
 }
 
 @media (max-width: $media-querie-m) {

@@ -25,14 +25,13 @@
     font-weight: bold;
     margin: 20px 0;
   }
+}
 
-  a {
-    color: $color-base-1;
-    font-weight: bold;
-    padding: 7px;
-    margin-left: 20px;
-    border-radius: 10px;
-    border: 2px solid $color-base-1;
+.wrapperButtons {
+  display: flex;
+
+  div {
+    margin-left: 10px;
   }
 }
 
