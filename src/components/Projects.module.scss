@@ -1,0 +1,21 @@
+@import '../styles/variables.scss';
+
+.wrapperSection {
+  margin-top: $deskop-margin-top-l;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperSection > div {
+  width: 77%;
+}
+
+.wrapperCards {
+  margin-top: $deskop-margin-top-m;
+}
+
+.wrapperCards > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,17 +1,21 @@
 /* 
 colores base
 */
+$color-base-1: #3bc14a;
+$color-base-2: #343e3d;
+$color-base-3: #2020208c;
+$color-base-4: #20202034;
 
 /* html */
-$bg-color: #202020;
+$bg-color: $color-base-2;
 $font-base-color: white;
 
 /* navbar */
-$bg-color-navbar: #111111;
-$bg-color-button-navbar: #63d471;
+$bg-color-navbar: $color-base-4;
+$bg-color-button-navbar: #3bc14a;
 
 /* about */
-$border-color-foto: #d1495b;
+$border-color-foto: #3bc14a;
 
 /* 
 
@@ -46,6 +50,17 @@ $h2-size-s: 16px;
 $text-size-ss: 10.3px;
 $h1-size-ss: 19px;
 $h2-size-ss: 14px;
+
+/* 
+
+
+
+Estilos Desktop
+*/
+$deskop-margin-left-h2: 100px;
+$deskop-padding-x: 80px;
+$deskop-margin-top-l: 70px;
+$deskop-margin-top-m: 30px;
 
 /* 
 

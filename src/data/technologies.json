@@ -1,0 +1,42 @@
+[
+  {
+    "name": "react",
+    "url": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+  },
+  {
+    "name": "redux",
+    "url": "https://www.vectorlogo.zone/logos/js_redux/js_redux-ar21.svg"
+  },
+  {
+    "name": "html",
+    "url": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+  },
+  {
+    "name": "css",
+    "url": "https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
+  },
+  {
+    "name": "javascript",
+    "url": "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
+  },
+  {
+    "name": "express",
+    "url": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
+  },
+  {
+    "name": "postgreSQL",
+    "url": "https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"
+  },
+  {
+    "name": "mongoDB",
+    "url": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
+  },
+  {
+    "name": "sass",
+    "url": "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-ar21.svg"
+  },
+  {
+    "name": "tailwindCSS",
+    "url": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg"
+  }
+]

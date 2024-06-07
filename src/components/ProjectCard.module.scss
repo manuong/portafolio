@@ -1,0 +1,54 @@
+@import '../styles/variables.scss';
+
+.wrapperCard {
+  background-color: $color-base-3;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    border-radius: 10px 0 0 10px;
+    width: 40%;
+  }
+}
+
+.title {
+  height: 80px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    font-weight: bold;
+    margin: 20px 0;
+  }
+}
+
+.wrapperButtons {
+  display: flex;
+
+  div {
+    margin-left: 10px;
+  }
+}
+
+.content {
+  padding: 0 15px;
+
+  p {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}
+
+p.technologyLine {
+  font-weight: bold;
+
+  span {
+    font-size: 16px;
+    color: $color-base-1;
+  }
+}

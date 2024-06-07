@@ -1,0 +1,17 @@
+@import '../styles/variables.scss';
+
+.wrapperSection {
+  margin-top: $deskop-margin-top-l;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperSection > div {
+  width: 80%;
+}
+
+.wrapperCards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}

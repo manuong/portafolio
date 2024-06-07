@@ -1,28 +1,37 @@
 @import '../styles/variables.scss';
 
-.navbar {
+.wrapperHeader {
+  width: 100%;
   background-color: $bg-color-navbar;
-  height: 70px;
   display: flex;
-  justify-content: end;
-  align-items: center;
-  font-family: $font-reddit-mono;
+  justify-content: center;
+}
 
-  * {
-    cursor: pointer;
-  }
+.navbar {
+  width: 85%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-family: $font-noto-sans;
+  font-size: 24px;
 
   span {
-    margin-right: 60px;
-  }
-
-  button {
-    background-color: $bg-color-button-navbar;
-    margin-right: 40px;
-    padding: 10px;
-    border-radius: 10px;
+    color: $color-base-1;
     font-weight: bold;
   }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts > div {
+  margin-right: 35px;
 }
 
 @media (max-width: $media-querie-m) {
