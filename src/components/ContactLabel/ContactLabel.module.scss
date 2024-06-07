@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.wrapperIcon {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperIcon:hover {
+  color: $color-base-1;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 22px;
+  margin-right: 5px;
+}

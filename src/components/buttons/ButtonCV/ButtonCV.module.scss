@@ -1,0 +1,17 @@
+@import '../../../styles/variables.scss';
+
+.wrapperButton {
+  background-color: $bg-color-button-navbar;
+  font-family: $font-reddit-mono;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid $color-base-1;
+}
+
+.wrapperButton:hover {
+  background-color: transparent;
+  color: $color-base-1;
+  cursor: pointer;
+}
